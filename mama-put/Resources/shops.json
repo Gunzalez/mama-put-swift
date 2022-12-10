@@ -1,0 +1,48 @@
+{
+  "data": [
+    {
+      "id": "store-638fe0214a55385d96d16c25",
+      "name": "Big Name Shop",
+      "address": "962 Woodbine Street, Templeton, Delaware, 8210",
+      "postCode": "WC1 2VH",
+      "phone": "+1 (863) 434-2608",
+      "service": "DINE-IN/TAKE-AWAY",
+      "meals": [
+        {
+          "recipe": "recipe-638fdd30328deb37b4337ad5",
+          "price": "£12.00"
+        },
+        {
+          "recipe": "recipe-638fdd30328deb37b4337ad5",
+          "price": "£14.00"
+        },
+        {
+          "recipe": "recipe-638fdd30328deb37b4337ad5",
+          "price": "£12.00"
+        }
+      ]
+    },
+    {
+      "id": "store-638fe021a49bf85fd6ac94c7",
+      "name": "East London Cafe",
+      "address": "252 Holmes Lane, Sexton, Kentucky, 5916",
+      "postCode": "N14 0LL",
+      "phone": "+1 (920) 482-3911",
+      "service": "TAKE-AWAY",
+      "meals": [
+        {
+          "recipe": "recipe-638fdd30328deb37b4337ad5",
+          "price": "£14.00"
+        },
+        {
+          "recipe": "recipe-638fdd30328deb37b4337ad5",
+          "price": "£14.00"
+        },
+        {
+          "recipe": "recipe-638fdd30328deb37b4337ad5",
+          "price": "£12.00"
+        }
+      ]
+    }
+  ]
+}
