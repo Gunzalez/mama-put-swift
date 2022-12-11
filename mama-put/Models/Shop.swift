@@ -20,6 +20,6 @@ struct Shop: Equatable, Hashable, Codable {
 
 // MARK: - Meal
 struct Meal: Equatable, Hashable, Codable {
-    var recipe: String
+    var recipeId: String
     var price: String
 }

@@ -12,15 +12,15 @@ struct Recipe: Equatable, Hashable, Codable {
     var name: String
     var hero: String
     var images: [String]
-    var recipeDescription: [String]
+    var description: [String]
     var cuisine: String
     var prepTime: String
     var cookTime: String
     var serves: Int
-    var extraDetail: [ExtraDetail]
     var video: Video
-    var ingredients: [Ingredient]
     var instructions: [String]
+    var extraDetail: [ExtraDetail]
+    var ingredients: [Ingredient]
 }
 
 // MARK: - ExtraDetail
