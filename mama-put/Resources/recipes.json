@@ -1,114 +1,112 @@
-{
-  "data": [
-    {
-      "id": "recipe-638fe4b81a5caa5dddfe2f38",
-      "name": "Rice & Stew",
-      "hero": "http://placehold.it/32x32",
-      "images": [
-        "http://placehold.it/32x32",
-        "http://placehold.it/32x32",
-        "http://placehold.it/32x32"
-      ],
-      "description": [
-        "consectetur laboris non elit deserunt velit ut nisi dolor culpa",
-        "amet irure nulla id occaecat excepteur pariatur officia eu nisi"
-      ],
-      "cuisine": "ghanian",
-      "prepTime": "44 mins",
-      "cookTime": "2 hours",
-      "serves": 4,
-      "extraDetail": [
-        {
-          "type": "header",
-          "content": "Hipsum ex"
-        },
-        {
-          "type": "paragraph",
-          "content": "elit adipisicing anim in duis elit voluptate commodo non excepteur elit deserunt"
-        },
-        {
-          "type": "paragraph",
-          "content": "ea adipisicing qui mollit ipsum ad esse voluptate"
-        }
-      ],
-      "video": {
-        "type": "Tik-Tok",
-        "url": "http://www.another-video.com/video?1345"
+[
+  {
+    "id": "recipe-638fe4b81a5caa5dddfe2f38",
+    "name": "Rice & Stew",
+    "hero": "http://placehold.it/32x32",
+    "images": [
+      "http://placehold.it/32x32",
+      "http://placehold.it/32x32",
+      "http://placehold.it/32x32"
+    ],
+    "description": [
+      "consectetur laboris non elit deserunt velit ut nisi dolor culpa",
+      "amet irure nulla id occaecat excepteur pariatur officia eu nisi"
+    ],
+    "cuisine": "ghanian",
+    "prepTime": "44 mins",
+    "cookTime": "2 hours",
+    "serves": 4,
+    "extraDetail": [
+      {
+        "type": "header",
+        "content": "Hipsum ex"
       },
-      "ingredients": [
-        {
-          "name": "onions",
-          "quantity": "90 grams"
-        },
-        {
-          "name": "rice",
-          "quantity": "40 grams"
-        },
-        {
-          "name": "onions",
-          "quantity": "100 grams"
-        }
-      ],
-      "instructions": [
-        "irure laboris pariatur aliqua nostrud elit non",
-        "officia anim et culpa exercitation voluptate laboris",
-        "sit cupidatat cupidatat amet aute cillum aliqua"
-      ]
+      {
+        "type": "paragraph",
+        "content": "elit adipisicing anim in duis elit voluptate commodo non excepteur elit deserunt"
+      },
+      {
+        "type": "paragraph",
+        "content": "ea adipisicing qui mollit ipsum ad esse voluptate"
+      }
+    ],
+    "video": {
+      "type": "Tik-Tok",
+      "url": "http://www.another-video.com/video?1345"
     },
-    {
-      "id": "recipe-638fe4b840279d0d3e400167",
-      "name": "Pounded Yam",
-      "hero": "http://placehold.it/32x32",
-      "images": [
-        "http://placehold.it/32x32",
-        "http://placehold.it/32x32",
-        "http://placehold.it/32x32"
-      ],
-      "description": [
-        "sint labore dolore veniam esse duis duis adipisicing nostrud proident",
-        "excepteur cillum eiusmod officia aliqua Lorem ex consequat in reprehenderit"
-      ],
-      "cuisine": "south african",
-      "prepTime": "30 mins",
-      "cookTime": "2 hours",
-      "serves": 2,
-      "extraDetail": [
-        {
-          "type": "header",
-          "content": "Hdo sunt"
-        },
-        {
-          "type": "paragraph",
-          "content": "qui labore quis proident ut est eu anim laboris nulla laborum consequat"
-        },
-        {
-          "type": "paragraph",
-          "content": "ullamco sit culpa ex sit veniam aliquip cillum"
-        }
-      ],
-      "video": {
-        "type": "YouTube",
-        "url": "http://www.video.com/video?345"
+    "ingredients": [
+      {
+        "name": "onions",
+        "quantity": "90 grams"
       },
-      "ingredients": [
-        {
-          "name": "rice",
-          "quantity": "41 grams"
-        },
-        {
-          "name": "pepper",
-          "quantity": "21 grams"
-        },
-        {
-          "name": "onions",
-          "quantity": "88 grams"
-        }
-      ],
-      "instructions": [
-        "in mollit culpa proident minim amet aute",
-        "in consequat ad veniam cillum velit proident",
-        "culpa proident mollit esse aute minim minim"
-      ]
-    }
-  ]
-}
+      {
+        "name": "rice",
+        "quantity": "40 grams"
+      },
+      {
+        "name": "onions",
+        "quantity": "100 grams"
+      }
+    ],
+    "instructions": [
+      "irure laboris pariatur aliqua nostrud elit non",
+      "officia anim et culpa exercitation voluptate laboris",
+      "sit cupidatat cupidatat amet aute cillum aliqua"
+    ]
+  },
+  {
+    "id": "recipe-638fe4b840279d0d3e400167",
+    "name": "Pounded Yam",
+    "hero": "http://placehold.it/32x32",
+    "images": [
+      "http://placehold.it/32x32",
+      "http://placehold.it/32x32",
+      "http://placehold.it/32x32"
+    ],
+    "description": [
+      "sint labore dolore veniam esse duis duis adipisicing nostrud proident",
+      "excepteur cillum eiusmod officia aliqua Lorem ex consequat in reprehenderit"
+    ],
+    "cuisine": "south african",
+    "prepTime": "30 mins",
+    "cookTime": "2 hours",
+    "serves": 2,
+    "extraDetail": [
+      {
+        "type": "header",
+        "content": "Hdo sunt"
+      },
+      {
+        "type": "paragraph",
+        "content": "qui labore quis proident ut est eu anim laboris nulla laborum consequat"
+      },
+      {
+        "type": "paragraph",
+        "content": "ullamco sit culpa ex sit veniam aliquip cillum"
+      }
+    ],
+    "video": {
+      "type": "YouTube",
+      "url": "http://www.video.com/video?345"
+    },
+    "ingredients": [
+      {
+        "name": "rice",
+        "quantity": "41 grams"
+      },
+      {
+        "name": "pepper",
+        "quantity": "21 grams"
+      },
+      {
+        "name": "onions",
+        "quantity": "88 grams"
+      }
+    ],
+    "instructions": [
+      "in mollit culpa proident minim amet aute",
+      "in consequat ad veniam cillum velit proident",
+      "culpa proident mollit esse aute minim minim"
+    ]
+  }
+]
