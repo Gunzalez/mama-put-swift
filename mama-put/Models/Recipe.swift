@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Recipe: Equatable, Hashable, Codable {
+struct Recipe: Decodable {
     var id: String
     var name: String
     var hero: String
@@ -24,20 +24,20 @@ struct Recipe: Equatable, Hashable, Codable {
 }
 
 // MARK: - ExtraDetail
-struct ExtraDetail: Equatable, Hashable, Codable {
+struct ExtraDetail: Decodable {
     var type: String
     var content: String
 }
 
 // MARK: - Ingredient
-struct Ingredient: Equatable, Hashable, Codable {
+struct Ingredient: Decodable {
     var name: String
     var quantity: String
-    var emoji: String
+    var emoji: String? //<- is it optional?
 }
 
 // MARK: - Video
-struct Video: Equatable, Hashable, Codable {
+struct Video: Decodable {
     var type: String
     var url: String
 }

@@ -24,7 +24,8 @@ class JSONManager {
         do {
             let decoder = JSONDecoder()
             return try decoder.decode(T.self, from: data)
-        } catch {
+        } catch let parsingError {
+            print(parsingError)
             fatalError("Could not decode the file named: \(filename)")
         }
     }
