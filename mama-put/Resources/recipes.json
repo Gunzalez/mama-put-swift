@@ -37,15 +37,18 @@
     "ingredients": [
       {
         "name": "onions",
-        "quantity": "90 grams"
+        "quantity": "90 grams",
+        "emoji": "🧅"
       },
       {
         "name": "rice",
-        "quantity": "40 grams"
+        "quantity": "40 grams",
+        "emoji": "🥕"
       },
       {
         "name": "onions",
-        "quantity": "100 grams"
+        "quantity": "100 grams",
+        "emoji": "🥯"
       }
     ],
     "instructions": [
@@ -92,15 +95,18 @@
     "ingredients": [
       {
         "name": "rice",
-        "quantity": "41 grams"
+        "quantity": "41 grams",
+        "emoji": "🧅"
       },
       {
         "name": "pepper",
-        "quantity": "21 grams"
+        "quantity": "21 grams",
+        "emoji": "🧅"
       },
       {
         "name": "onions",
-        "quantity": "88 grams"
+        "quantity": "88 grams",
+        "emoji": "🧅"
       }
     ],
     "instructions": [
