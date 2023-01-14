@@ -15,14 +15,13 @@ struct BannerView: View {
                 .font(.system(size: 80))
             
             VStack(alignment: .leading, spacing: 10) {
-                Text("You have \(noOfRecipies) meals to try!")
+                Text("You have \(noOfRecipies) amazing meals to try!")
                     .font(.body)
                     .foregroundColor(.black)
             }
         }
         .frame(maxWidth: .infinity)
-        .background(Color("lightGfeen"), in:
-                        RoundedRectangle(cornerRadius: 20))
+        .background(RoundedRectangle(cornerRadius: 20).fill(Color("lightGreen")))
     }
 }
 
