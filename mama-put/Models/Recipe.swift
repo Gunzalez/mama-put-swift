@@ -49,7 +49,7 @@ extension Recipe {
             Recipe(
                 id: "recipe-638fe4b81a5caa5dddfe2f38",
                 name: "Eba",
-                hero: "eba-main.png",
+                hero: "eba-main",
                 images: ["eba-main.png","eba-eguisi.png","eba-okro.png"],
                 description: ["Eba is a Nigerian staple food eaten all over the country and beyond. It is made from fried grated cassava (manioc) flour, commonly called as garri."],
                 cuisine: "nigerian",
@@ -71,7 +71,7 @@ extension Recipe {
             Recipe(
                 id: "recipe-638fe4b81a5caa5dddfe2f38",
                 name: "Jollof Rice - Nigerian",
-                hero: "jollof-main.png",
+                hero: "jollof-main",
                 images: ["jollof-main.png","jollof-chicken.png","jollof-beef.png"],
                 description: ["Jollof rice is a West African dish that’s a staple in most households. It is a dish made with rice, tomatoes, tomato paste, onions, red bell pepper, scotch bonnet peppers, salt, and spices. Nigerians use the long grain rice that has been parboiled. Other versions i.e. Ghanaian Jollof will use basmati or jasmine rice."],
                 cuisine: "nigerian",

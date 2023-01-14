@@ -9,17 +9,19 @@ import SwiftUI
 
 struct SearchView: View {
     
-    @Binding var searchText: String;
+    @Binding var searchText: String
+    
     var body: some View {
         HStack {
             HStack{
                 Image(systemName: "magnifyingglass")
                     .foregroundColor(Color.gray)
+                    .font(.system(size: 22))
 
                 TextField("Search recipes", text: $searchText)
                     .foregroundColor(Color.primary)
             }
-            .padding()
+            .padding(16)
             .background(Color.gray.opacity(0.2), in: RoundedRectangle(cornerRadius: 16))
         }
     }
