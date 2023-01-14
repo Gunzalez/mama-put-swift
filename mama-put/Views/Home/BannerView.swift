@@ -10,18 +10,20 @@ import SwiftUI
 struct BannerView: View {
     @State var noOfRecipies: String;
     var body: some View {
-        HStack{
+        HStack(spacing: 0){
             Text("🥘")
-                .font(.system(size: 80))
+                .font(.system(size: 70))
+                .padding(.trailing, 10)
             
-            VStack(alignment: .leading, spacing: 10) {
-                Text("You have \(noOfRecipies) amazing meals to try!")
+            VStack(spacing: 0) {
+                Text("You have \(noOfRecipies) amazing meals to try! You're gonna love this!")
                     .font(.body)
                     .foregroundColor(.black)
             }
         }
+        .padding(.vertical, 10)
         .frame(maxWidth: .infinity)
-        .background(RoundedRectangle(cornerRadius: 20).fill(Color("lightGreen")))
+        .background(Color("lightGreen"), in: RoundedRectangle(cornerRadius: 10))
     }
 }
 
