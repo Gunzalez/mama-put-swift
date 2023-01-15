@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct RecipeView: View {
+struct RecipeListView: View {
     
     @State private var allrecipes = [Recipe]()
     
@@ -26,6 +26,6 @@ struct RecipeView: View {
 
 struct RecipeView_Previews: PreviewProvider {
     static var previews: some View {
-        RecipeView()
+        RecipeListView()
     }
 }

@@ -48,6 +48,7 @@ struct RecipeTileView: View {
             .foregroundColor(.white)
             .frame(maxWidth: UIScreen.main.bounds.width * 0.8, alignment: .leading)
         }
+        
     }
 }
 

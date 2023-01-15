@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6F9874BD29605C16008382F0 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9874BC29605C16008382F0 /* RecipeView.swift */; };
+		6F9874BD29605C16008382F0 /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9874BC29605C16008382F0 /* RecipeListView.swift */; };
 		6FB8026A2944AA5900402DB7 /* mama_putApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB802692944AA5900402DB7 /* mama_putApp.swift */; };
 		6FB8026C2944AA5900402DB7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB8026B2944AA5900402DB7 /* ContentView.swift */; };
 		6FB8026E2944AA5B00402DB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FB8026D2944AA5B00402DB7 /* Assets.xcassets */; };
@@ -25,7 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6F9874BC29605C16008382F0 /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
+		6F9874BC29605C16008382F0 /* RecipeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListView.swift; sourceTree = "<group>"; };
 		6FB802662944AA5900402DB7 /* mama-put.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mama-put.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FB802692944AA5900402DB7 /* mama_putApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mama_putApp.swift; sourceTree = "<group>"; };
 		6FB8026B2944AA5900402DB7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,7 +104,7 @@
 		6FB802782944AB4600402DB7 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				6F9874BC29605C16008382F0 /* RecipeView.swift */,
+				6F9874BC29605C16008382F0 /* RecipeListView.swift */,
 				6FDD74D9297240A600F6BD8D /* BannerView.swift */,
 				6FDD74DB29731ED900F6BD8D /* SearchView.swift */,
 				6FDD74DD297326C800F6BD8D /* RecipeTileView.swift */,
@@ -213,7 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FDD74DA297240A600F6BD8D /* BannerView.swift in Sources */,
-				6F9874BD29605C16008382F0 /* RecipeView.swift in Sources */,
+				6F9874BD29605C16008382F0 /* RecipeListView.swift in Sources */,
 				6FDD74E229735FC400F6BD8D /* Star.swift in Sources */,
 				6FDD74E02973276200F6BD8D /* RecipeImageView.swift in Sources */,
 				6FB8027C2944AE0000402DB7 /* Recipe.swift in Sources */,
