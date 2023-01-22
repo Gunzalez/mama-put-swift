@@ -9,7 +9,7 @@ import SwiftUI
 
 struct RecipeListView: View {
     
-    @State private var allrecipes = [Recipe]()
+    @State private var allpreviews = [Preview]()
     
     var body: some View {
         
@@ -18,7 +18,7 @@ struct RecipeListView: View {
             
                         
         }.onAppear {
-            allrecipes = JSONManager.load("recipes.json")
+            allpreviews = JSONManager.load("previews.json")
             print("ContentView appeared!")
         }
     }
