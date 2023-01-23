@@ -1,0 +1,20 @@
+[
+  {
+    "id": "recipe-638fe4b81a5caa5dddfe2f38",
+    "name": "Rice & Stew",
+    "hero": "http://placehold.it/32x32",
+    "cuisine": "ghanian",
+    "prepTime": "44 mins",
+    "cookTime": "2 hours",
+    "serves": 4,
+  },
+  {
+    "id": "recipe-638fe4b840279d0d3e400167",
+    "name": "Pounded Yam",
+    "hero": "http://placehold.it/32x32",
+    "cuisine": "south african",
+    "prepTime": "30 mins",
+    "cookTime": "2 hours",
+    "serves": 2,
+  }
+]
