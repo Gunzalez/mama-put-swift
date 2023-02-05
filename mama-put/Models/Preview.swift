@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Preview: Decodable {
+struct Preview: Decodable, Hashable  {
     var id: String
     var name: String
     var hero: String

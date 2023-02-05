@@ -9,11 +9,11 @@ import SwiftUI
 
 struct RecipeTileView: View {
     
-    var recipe: Recipe
+    var preview: Preview
     
     var body: some View {
         ZStack{
-            RecipeImageView(imageName: recipe.hero)
+            RecipeImageView(imageName: preview.hero)
             
             VStack(alignment: .leading) {
                 HStack() {
@@ -32,17 +32,20 @@ struct RecipeTileView: View {
                         .foregroundColor(Color("mamaOrange"))
                 }
                 .frame(maxWidth: UIScreen.main.bounds.width * 0.8, alignment: .trailing)
+                .onAppear {
+                    print(preview)
+                }
                 
                 Spacer()
                 
 
-                Text(recipe.name)
+                Text(preview.name)
                     .font(.title)
 
-                Text("Cusine: \(recipe.cuisine.capitalized).")
+                Text("Cusine: \(preview.cuisine.capitalized).")
                     .font(.body)
                 
-                Text("\(Image(systemName: "clock")) \(recipe.cookTime.capitalized) . \(Image(systemName: "person.circle")) \(recipe.serves) Serves")
+                Text("\(Image(systemName: "clock")) \(preview.cookTime.capitalized) . \(Image(systemName: "person.circle")) \(preview.serves) Serves")
                     .font(.body)
             }
             .foregroundColor(.white)
@@ -54,6 +57,6 @@ struct RecipeTileView: View {
 
 struct RecipeTileView_Previews: PreviewProvider {
     static var previews: some View {
-        RecipeTileView(recipe: Recipe.sampleData[0])
+        RecipeTileView(preview: Preview.sampleData[0])
     }
 }
