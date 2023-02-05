@@ -32,24 +32,21 @@ struct RecipeTileView: View {
                         .foregroundColor(Color("mamaOrange"))
                 }
                 .frame(maxWidth: UIScreen.main.bounds.width * 0.8, alignment: .trailing)
-                .onAppear {
-                    print(preview)
-                }
                 
                 Spacer()
                 
-
                 Text(preview.name)
                     .font(.title)
 
                 Text("Cusine: \(preview.cuisine.capitalized).")
                     .font(.body)
                 
-                Text("\(Image(systemName: "clock")) \(preview.cookTime.capitalized) . \(Image(systemName: "person.circle")) \(preview.serves) Serves")
+                Text("\(Image(systemName: "clock")) \(preview.cookTime.capitalized) \(Image(systemName: "person.circle")) \(preview.serves) Serves")
                     .font(.body)
             }
             .foregroundColor(.white)
-            .frame(maxWidth: UIScreen.main.bounds.width * 0.8, alignment: .leading)
+//            .frame(maxWidth: UIScreen.main.bounds.width * 0.8, alignment: .leading)
+            .padding(.vertical, 10)
         }
         
     }
